@@ -1,0 +1,28 @@
+{
+  "name": "quiz-whoiz",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "ahooks": "^3.7.0",
+    "axios": "^0.27.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-paginate": "^8.1.3",
+    "react-query": "^3.39.2",
+    "react-select": "^5.4.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.17",
+    "@types/react-dom": "^18.0.6",
+    "@vitejs/plugin-react": "^2.0.1",
+    "sass": "^1.54.5",
+    "typescript": "^4.6.4",
+    "vite": "^3.0.7"
+  }
+}
